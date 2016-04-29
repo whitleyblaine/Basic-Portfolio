@@ -4,7 +4,7 @@ html * {
 
 /* Header */
 .header {
-  background: #e6e6e6;
+  background: #ffffff;
   border-bottom: 3px solid #cccccc;
   height: 76px;
 }
@@ -20,6 +20,12 @@ html * {
   text-decoration: none;
   border-right: 1px solid #cccccc;
   padding: 0 15px 0 15px;
+  font-family: 'Georgia', Times, Times New Roman, serif;
+}
+
+.header-links a:hover {
+  background: #000;
+  color: #fff;
 }
 
 .header a:first-child {
@@ -28,13 +34,19 @@ html * {
 }
 
 
-.nametag h1{
+.nametag a{
   display: inline-block;
-  padding: 30px 30px 27px 30px;
+  padding: 30px 30px 23px 30px;
   background: #4aaaa5;
   color: #fff;
   font-family: 'Georgia', Times, Times New Roman, serif;
   margin: 0 0 0 100px;
+  font-size: 120%;
+  text-decoration: none;
+}
+
+.nametag a:hover {
+  background: #00FFF2;
 }
 
 /* Body */
@@ -57,33 +69,37 @@ p {
   background: #fff;
   padding: 30px 0 0 30px;
   display: inline-block;
-  width: 50%;
+  width: 650px;
   border: 1px solid #dddddd;
 }
 
 .about p {
   width: 90%;
-  padding: 0 0 10px 0;
+}
+
+#first-p {
+  padding-top: 20px;
 }
 
 .about h1 {
   border-bottom: 3px solid #dddddd;
   padding-bottom: 10px;
   margin: 0 10px 10px 0;
+  font-size: 150%;
 }
 
 .about img {
   float: left;
-  padding: 20px 20px 0 0;
+  padding: 20px 20px 30px 0;
 }
 
 
 /*Portfolio*/
 .portfolio {
   background: #fff;
-  padding: 30px 0 0 30px;
+  padding: 30px 0 20px 30px;
   display: inline-block;
-  width: 50%;
+  width: 650px;
   border: 1px solid #dddddd;
 }
 
@@ -91,32 +107,67 @@ p {
   border-bottom: 3px solid #dddddd;
   padding-bottom: 10px;
   margin: 0 10px 10px 0;
+  font-size: 150%;
 }
 
 .portfolio img {
-  margin: 10px 10px 10px 5px;
-  position: relative;
+  margin: 10px 10px 0 10px;
 }
 
-.portfolio span {
-  padding: 20px 20px 20px 20px;
+.portfolio h2 {
+  padding: 10px;
+  margin: -50px 10px 10px 10px;
+  font-size: 100%;
   background: #4aaaa5;
-  color: #fff;
-  font-family: 'Georgia', Times, Times New Roman, serif;
+  text-align: center;
+  position: absolute;
+  width: 280px;
 }
 
 /*Contact Form*/
 .contact_form {
   background: #fff;
-  padding: 30px 0 100 30px;
+  padding: 30px 0 70px 30px;
   display: inline-block;
-  width: 50%;
+  width: 650px;
 }
 
 .contact_form h1 {
   border-bottom: 3px solid #dddddd;
-  padding-bottom: 10px;
-  margin: 0 10px 10px 0;
+  padding-bottom: 20px;
+  margin: 0 10px 10px 10px;
+  font-size: 150%;
+}
+
+.contact_form p {
+  margin: 20px 0 0 10px;
+}
+
+#contact_submit {
+  color: #ffffff;
+  background-color: #4aaaa5;
+  margin-left: 10px;
+  border: none;
+  padding: 5px 20px 5px 20px;
+  font-size: 100%;
+}
+
+#contact_submit:hover {
+  color: #000;
+  background-color: #fff;
+  border: 2px solid #00FFF2;
+}
+
+.text-input {
+  height: 30px;
+  width: 500px;
+  margin: 0 10px 10px 10px;
+}
+
+.message-area {
+  height: 100px;
+  width: 500px;
+  margin: 0 10px 10px 10px;
 }
 
 .connect {
@@ -125,6 +176,7 @@ p {
   display: inline-block;
   border: 1px solid #dddddd;
   margin-right: 40px;
+  width: 270px;
 }
 
 .connect h1 {
@@ -132,10 +184,19 @@ p {
   padding: 10px;
   border-bottom: 3px solid #dddddd;
   margin: 0 10px 10px 10px;
+  font-size: 150%;
 }
 
 .connect img {
   margin-bottom: 10px;
+}
+
+.connect img:hover {
+  background: #FF5700;
+}
+
+#tweet {
+  margin-left: 60px;
 }
 
 .footer {
