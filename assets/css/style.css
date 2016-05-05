@@ -23,7 +23,7 @@ html, body {
   float: right;
   margin: 30px 0 0 0;
   text-decoration: none;
-  border-right: 1px solid #cccccc;
+  border-right: 1px solid #a5a5a5;
   padding: 0 15px 0 15px;
   font-family: 'Georgia', Times, Times New Roman, serif;
 }
@@ -139,6 +139,7 @@ p {
   padding: 30px 0 70px 30px;
   display: inline-block;
   width: 650px;
+  border: 1px solid #dddddd;
 }
 
 .contact-form h1 {
@@ -182,9 +183,9 @@ p {
 .connect {
   float: right;
   background: #fff;
-  display: inline-block;
+  display: inline;
   border: 1px solid #dddddd;
-  margin-right: 40px;
+  margin-right: 20px;
   width: 270px;
 }
 
@@ -197,15 +198,11 @@ p {
 }
 
 .connect img {
-  margin-bottom: 10px;
+  margin: 15px 10px 30px 10px;
 }
 
 .connect img:hover {
   background: #FF5700;
-}
-
-#tweet {
-  margin-left: 60px;
 }
 
 .footer {
